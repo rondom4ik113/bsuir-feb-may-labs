@@ -1,0 +1,398 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap);
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: Montserrat, sans-serif;
+}
+
+.nav {
+    background: #3b3e41;
+}
+
+.navControl {
+    display: flex;
+}
+
+.navTitle {
+    flex-grow: 1;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@media (min-width:640px) {
+    .navTitle {
+        font-size: 24px;
+        padding: 22px 37px;
+    }
+}
+
+@media (min-width:980px) {
+    .navTitle {
+        display: none;
+    }
+}
+
+.navOpen {
+    background: #202529;
+    padding: 9px 11px;
+}
+
+@media (min-width:640px) {
+    .navOpen {
+        padding: 24px 21px;
+    }
+}
+
+@media (min-width:980px) {
+    .navOpen {
+        display: none;
+    }
+}
+
+.navOpenIcon {
+    width: 15px;
+    height: 10px;
+}
+
+@media (min-width:640px) {
+    .navOpenIcon {
+        width: 31px;
+        height: 20px;
+    }
+}
+
+.navItems {
+    display: none;
+}
+
+@media (min-width:980px) {
+    .navItems {
+        display: flex;
+        padding: 0 39px;
+    }
+}
+
+.navItem {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ebebeb;
+    padding: 39px 14px;
+}
+
+.navItemHome {
+    color: #fff;
+}
+
+.headBanner {
+    padding: 57px 55px 50px 25px;
+    background: #0ca3b9 linear-gradient(119deg, #19b4c6, #078aa4);
+    color: #fff;
+}
+
+@media (min-width:640px) {
+    .headBanner {
+        padding: 95px 125px 92px 52px;
+    }
+}
+
+@media (min-width:980px) {
+    .headBanner {
+        padding: 153px 190px 149px 5pc;
+    }
+}
+
+@media (min-width:1024px) {
+    .headBanner {
+        padding: 163px 200px 158px 86px;
+    }
+}
+
+.headBannerTitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+@media (min-width:640px) {
+    .headBannerTitle {
+        font-size: 39px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width:980px) {
+    .headBannerTitle {
+        font-size: 60px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width:1024px) {
+    .headBannerTitle {
+        font-size: 62px;
+        margin-bottom: 62px;
+    }
+}
+
+.headBannerSubTitle {
+    color: hsla(0, 0%, 100%, .5);
+    font-size: 10px;
+}
+
+@media (min-width:640px) {
+    .headBannerSubTitle {
+        font-size: 22px;
+    }
+}
+
+@media (min-width:980px) {
+    .headBannerSubTitle {
+        font-size: 34px;
+    }
+}
+
+@media (min-width:1024px) {
+    .headBannerSubTitle {
+        font-size: 35px;
+    }
+}
+
+.headBannerSubTitleArrow {
+    float: right;
+    width: 6px;
+    height: 10px;
+}
+
+@media (min-width:640px) {
+    .headBannerSubTitleArrow {
+        width: 9pt;
+        height: 20px;
+    }
+}
+
+@media (min-width:980px) {
+    .headBannerSubTitleArrow {
+        width: 15px;
+        height: 25px;
+    }
+}
+
+@media (min-width:1024px) {
+    .headBannerSubTitleArrow {
+        width: 19px;
+        height: 28px;
+    }
+}
+
+.actionArea {
+    display: flex;
+    background: #27212c;
+}
+
+.actionAreaText {
+    flex-grow: 1;
+    color: #9282a0;
+    padding: 31px 25px;
+    font-size: 10px;
+}
+
+@media (min-width:640px) {
+    .actionAreaText {
+        padding: 63px 55px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:980px) {
+    .actionAreaText {
+        padding: 99px 84px 6pc;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1024px) {
+    .actionAreaText {
+        padding: 103px 88px;
+        font-size: 31px;
+    }
+}
+
+.actionAreaArrow {
+    background: #a23480;
+    padding: 28px 30px;
+}
+
+@media (min-width:640px) {
+    .actionAreaArrow {
+        padding: 60px 67px 59px;
+    }
+}
+
+@media (min-width:980px) {
+    .actionAreaArrow {
+        padding: 97px 105px 6pc;
+    }
+}
+
+@media (min-width:1024px) {
+    .actionAreaArrow {
+        padding: 75pt 110px 101px;
+    }
+}
+
+.actionAreaArrowIcon {
+    width: 9px;
+    height: 14px;
+}
+
+@media (min-width:640px) {
+    .actionAreaArrowIcon {
+        width: 1pc;
+        height: 27px;
+    }
+}
+
+@media (min-width:980px) {
+    .actionAreaArrowIcon {
+        width: 22px;
+        height: 35px;
+    }
+}
+
+@media (min-width:1024px) {
+    .actionAreaArrowIcon {
+        width: 24px;
+        height: 39px;
+    }
+}
+
+.slides {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+@media (min-width:980px) {
+    .slides {
+        flex-direction: row;
+        align-content: normal;
+    }
+}
+
+.BridgeSlide,
+.ArrowSlide,
+.womanSlide {
+    position: relative;
+}
+
+@media (min-width:980px) {
+
+    .BridgeSlide,
+    .ArrowSlide,
+    .womanSlide {
+        flex: 1 1 0;
+    }
+}
+
+.ArrowSlide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #5b0fa1;
+    height: 86.87vw;
+}
+
+@media (min-width:980px) {
+    .ArrowSlide {
+        height: auto;
+    }
+}
+
+@media (min-width:640px) {
+    .Arrow {
+        width: 35px;
+        height: 57px;
+    }
+}
+
+@media (min-width:980px) {
+    .Arrow {
+        width: 20px;
+        height: 31px;
+    }
+}
+
+.slideImage {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.footer {
+    background: #ebebeb;
+    padding: 35px;
+}
+
+@media (min-width:640px) {
+    .footer {
+        padding: 75px;
+    }
+}
+
+.footerTitle {
+    font-weight: 600;
+    font-size: 19px;
+    color: #4f8ba2;
+}
+
+@media (min-width:640px) {
+    .footerTitle {
+        font-size: 30px;
+    }
+}
+
+.footerTexts {
+    font-size: 9pt;
+    line-height: 1.58;
+    color: #515151;
+}
+
+@media (min-width:640px) {
+    .footerTexts {
+        font-size: 22px;
+    }
+}
+
+@media (min-width:980px) {
+    .footerTexts {
+        font-size: 14px;
+        line-height: 1.8571;
+        -moz-column-count: 2;
+        column-count: 2;
+        grid-column-gap: 70px;
+        -moz-column-gap: 70px;
+        column-gap: 70px;
+    }
+}
+
+.footerTextsMin {
+    display: none
+}
+
+@media (min-width:980px) {
+    .footerTextsMin {
+        display: block;
+    }
+} 
